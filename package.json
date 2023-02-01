@@ -1,0 +1,22 @@
+{
+  "name": "turtlesandwich",
+  "displayName": "TortueSandwichTheme",
+  "description": "Theme crée par TortueSandwich",
+  "author": {"name": "TortueSandwich"},
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TortueSandwich",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TortueSandwich-color-theme.json"
+      }
+    ]
+  }
+}
